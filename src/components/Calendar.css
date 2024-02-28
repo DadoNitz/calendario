@@ -1,0 +1,74 @@
+.calendar-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.datepicker {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.comment-section {
+    margin-top: 20px;
+}
+
+.comment-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+    outline: none;
+}
+
+.comment-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comment-button:hover {
+    background-color: #45a049;
+}
+
+.postit {
+    position: absolute;
+    background-color: #ffd280;
+    padding: 10px;
+    border: 2px solid #ffae42;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: move;
+    overflow-y: auto;
+}
+
+.postit-date {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.postit-text {
+    color: #333;
+}
